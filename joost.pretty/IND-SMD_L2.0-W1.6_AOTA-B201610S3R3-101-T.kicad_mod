@@ -1,141 +1,29 @@
-(footprint "IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T"
-	(version 20241229)
-	(generator "pcbnew")
-	(generator_version "9.0")
-	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at 0 -4 0)
-		(layer "F.SilkS")
-		(uuid "8b791cfe-64b9-434d-ba06-a8d7938ebb9c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Value" "IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T"
-		(at 0 4 0)
-		(layer "F.Fab")
-		(uuid "5f72c4de-d480-4809-912a-51eb8a0d16b6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Datasheet" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d62977c1-eb46-40f4-b26a-2369ead31e14")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Description" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d8fde883-cd96-4941-8b62-e85b6947b73c")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
+(module easyeda2kicad:IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T (layer F.Cu) (tedit 5DC5F6A4)
 	(attr smd)
-	(fp_line
-		(start -0.2 -0.8)
-		(end 0.2 -0.8)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8ee78c1a-5b7b-4824-b1d1-f6adb1b2db0c")
+	(fp_text reference REF** (at 0.000 -4.000) (layer F.SilkS)
+		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(fp_line
-		(start -0.2 0.8)
-		(end 0.2 0.8)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b1629406-b545-474e-8405-fae678da91aa")
+	(fp_text value IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T (at 0.000 4.000) (layer F.Fab)
+		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(fp_circle
-		(center 0.9 -1.25)
-		(end 1.03 -1.25)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "202f8159-eee7-42fa-8833-d548e39b23aa")
+	(fp_text user %R (at 0 0) (layer F.Fab)
+		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(fp_circle
-		(center 1 -0.5)
-		(end 1.13 -0.5)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "36b82b3a-e868-4fe2-96fa-c4ad5a5317ad")
-	)
-	(fp_circle
-		(center -1 0.8)
-		(end -0.97 0.8)
-		(stroke
-			(width 0.06)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "6fa8c2c7-28ec-477f-92e6-c9eb11587be2")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "66d24ab3-dd97-4a4d-b8a3-550e52960c3d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(pad "1" smd rect
-		(at -1 0)
-		(size 1 1.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "6c06f8e4-0a14-44ac-9e9d-ff30ea287425")
-	)
-	(pad "2" smd rect
-		(at 1 0)
-		(size 1 1.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d45d5e33-74ae-4f2a-81d8-8f56688d2edc")
-	)
-	(embedded_fonts no)
-	(model "${KIPRJMOD}/home/joostn/GitProjects/kicad_rhodesmidi/easyeda2kicad.3dshapes/IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T.wrl"
-		(offset
-			(xyz 0 -0 -0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
+	(property "LCSC Part" "C42411119")
+	(fp_line (start -0.27 0.80) (end 0.27 0.80) (layer F.SilkS) (width 0.25))
+	(fp_line (start -0.27 -0.80) (end 0.27 -0.80) (layer F.SilkS) (width 0.25))
+	(pad 2 smd rect (at 1.00 0.00 0.00) (size 1.000 1.600) (layers F.Cu F.Paste F.Mask))
+	(pad 1 smd rect (at -1.00 0.00 0.00) (size 1.000 1.600) (layers F.Cu F.Paste F.Mask))
+	(fp_circle (center -1.00 0.80) (end -0.97 0.80) (layer F.SilkS) (width 0.06))
+	(fp_circle (center 0.90 -1.10) (end 1.03 -1.10) (layer F.SilkS) (width 0.25))
+	(fp_circle (center 1.00 -0.50) (end 1.13 -0.50) (layer Cmts.User) (width 0.25))
+	(fp_line (start -1.00 0.80) (end -1.00 -0.80) (layer F.CrtYd) (width 0.05))
+	(fp_line (start -1.00 -0.80) (end 1.00 -0.80) (layer F.CrtYd) (width 0.05))
+	(fp_line (start 1.00 -0.80) (end 1.00 0.80) (layer F.CrtYd) (width 0.05))
+	(fp_line (start 1.00 0.80) (end -1.00 0.80) (layer F.CrtYd) (width 0.05))
+	(model "/home/joostn/GitProjects/joostkicadlib/joost.3dshapes/IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T.wrl"
+		(offset (xyz 0.000 0.000 0.000))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
 	)
 )

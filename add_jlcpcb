@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+easyeda2kicad --lcsc_id $1 \
+--output /home/joostn/GitProjects/joostkicadlib/joost.kicad_sym \
+--full $2
